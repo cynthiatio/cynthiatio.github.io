@@ -1,0 +1,124 @@
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    min-width: 899px;
+    /*background-color: #48D1CC; /*medium turquoise*/
+    background-color: #1a1a1a;
+}
+.header img {
+    width: 100%;
+    height: 70px;
+    float: left;
+    margin-top: 0px; /*to override the margin top 15px that was set to all images*/ 
+}
+.nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    /*width: 100%;*/
+}
+.nav a {
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+}
+.nav li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.nav ul {
+    background-color: #d9d9d9;  /*gray*/
+    margin: 0px;
+    padding-left: 0px;
+}
+.side li {
+    display: inline-block;
+    margin-right: 25px;
+    border-left-style: inset;
+}
+.side {
+    text-align: center;
+    /*margin-top: 437px;*/
+}
+.side ul {
+    padding-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.side a {
+    color: 	#FFFFFF; /*white*/ 
+    font-weight: 200;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    display: inline-block;
+    /*text-align: left;*/
+    color: #FF4500; /*orange red*/
+}
+body {
+   /*border: 2px solid red; /*Need to be deactivated*/
+    width: 75%;
+    margin: auto;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    min-width: 899px;
+}
+/*div {
+    border: 1px dotted green; /*Need to be deactivated
+}*/
+#active {
+    text-decoration: underline;
+    color: #ff0000; /*red*/
+    font-weight: bold;
+}
+img {
+    width: 320px;
+    height: 240px;
+    margin-top: 15px;
+}
+.main{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 225px;
+    clear: both;
+}
+.main li {
+    display: block;
+    font-weight: 600;
+}
+.main ol {
+    padding-left: 0px;
+}
+.main a {
+    color: #0000FF;
+    text-decoration: none;
+}
+.main h5 {
+    margin-top: 5px; /*decreasing the margin-top from 22px to 5px, in order to position the image description closer to the images*/
+}
+.main div {
+    margin-top: 50px;
+}
+.side ul, .nav ul {
+    padding: 0px;
+}
+.empty {
+}
+h2 {
+    text-transform: uppercase;
+}
+
+
+
+
+
